@@ -26,8 +26,7 @@ iframe {
 }
 
 * {
-  font-family: "Charter", "Georgia", serif;
-}
+  font-family: "SF Pro Text"}
 
 .visually-hidden {
   display: none;
@@ -145,8 +144,7 @@ pre,
 pre *,
 code,
 code * {
-  font-family: monospace;
-}
+  font-family: "SFMonoLigaturized Nerd Font Mono";}
 pre {
   display: block;
   overflow: auto;
