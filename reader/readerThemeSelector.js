@@ -4,7 +4,7 @@ var themeSelectors = document.querySelectorAll('.theme-circle')
 
 var metaThemeValues = {
   light: '#fff',
-  dark: 'rgb(36, 41, 47)',
+  dark: 'rgb(0, 0, 0)',
   sepia: 'rgb(247, 231, 199)'
 }
 
