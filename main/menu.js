@@ -344,6 +344,12 @@ function buildAppMenu (options = {}) {
             role: 'minimize'
           },
           {
+            label: l('mZoom', "Zoom"),
+            role: 'zoom',
+            enabled: windows.getAll().length > 0,
+            accelerator: 'Cmd+Ctrl+Z',
+          },
+          {
             label: l('appMenuClose'),
             accelerator: 'CmdOrCtrl+W',
             click: function (item, window) {
